@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+  background: rgb(255, 255, 255);
+}
+
+:root {
+  --btn-font-size: 1.25rem;
+  --btn-font-weight: 600;
+}
+
+button {
+  font-size: 1.25rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button > a {
+  text-decoration: none;
+  font-weight: var(--btn-font-weight);
+}

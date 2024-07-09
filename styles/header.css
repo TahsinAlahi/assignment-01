@@ -1,4 +1,12 @@
 /* Navbar */
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+/* navbar */
 nav {
   display: flex;
   align-items: center;
@@ -16,9 +24,53 @@ nav {
 
 nav button {
   border: 1px solid rgb(13, 19, 33);
-  padding: 24px 17px;
+  padding: 15px 17px;
 }
 
 nav button a {
   color: rgb(13, 19, 33);
+}
+
+/* section */
+section {
+  flex: 1;
+  background: no-repeat center / cover url("../assets/Hero-bg.png");
+}
+
+section.hero {
+  text-align: center;
+}
+
+section img {
+  height: 240px;
+  /* margin: 0px 0 15px; */
+  background-color: transparent;
+}
+
+section h1 {
+  width: 70%;
+  margin: 0 auto 24px;
+  background-color: transparent;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 68px;
+  color: rgb(13, 19, 33);
+}
+
+section p {
+  width: 60%;
+  margin: 0 auto 32px;
+  background-color: transparent;
+}
+
+section button.btn {
+  padding: 15px 25px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  border: transparent;
+}
+
+section button.btn a {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
 }

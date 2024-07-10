@@ -1,0 +1,59 @@
+.reasons {
+  text-align: center;
+  margin: 40px auto 70px;
+  width: 70%;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 50px 20px;
+}
+
+.reasons > p {
+  padding: 0 45px;
+  margin-top: 24px;
+  margin-bottom: 90px;
+}
+
+.reasons .reason-cards .card {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18%;
+  padding: 45px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  margin-bottom: 48px;
+}
+
+.reasons .reason-cards .card:nth-child(even) {
+  flex-direction: row-reverse;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.reasons .reason-cards .card p {
+  margin: 15px 0 30px 0;
+}
+
+.reasons .reason-cards .card .btn {
+  border: 1px solid rgb(13, 19, 33);
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.reasons .reason-cards .card .btn > a {
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+}
+
+.reasons .reason-cards .card [src="assets/group-1.svg"] {
+  height: 200px;
+}

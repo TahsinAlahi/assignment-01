@@ -1,11 +1,11 @@
-.bottom-container {
+footer {
   width: 100%;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
   padding: 32px 150px 32px 150px;
 }
 
-.bottom-container .bottom {
+footer .bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;

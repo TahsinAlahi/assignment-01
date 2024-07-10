@@ -1,0 +1,31 @@
+.next-target {
+  width: 70%;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.next-target .next-target-cards .next-target-card {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 40px;
+  border: 1px black solid;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.next-target .next-target-cards .next-target-card img {
+  padding: 16px 24px;
+}
+
+.next-target .next-target-card button {
+  padding: 0;
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.next-target .next-target-card a {
+  color: rgb(13, 19, 33);
+}

@@ -1,16 +1,10 @@
 .reasons {
   text-align: center;
-  margin: 40px auto 70px;
-  width: 70%;
+  margin: 3% auto 4.8%;
+  width: 75%;
   border-radius: 16px;
   background-color: rgba(13, 19, 33, 0.02);
-  padding: 50px 20px;
-}
-
-.reasons > p {
-  padding: 0 45px;
-  margin-top: 24px;
-  margin-bottom: 90px;
+  padding: 50px 3.2%;
 }
 
 .reasons .reason-cards .card {
@@ -52,8 +46,4 @@
 .reasons .reason-cards .card .btn > a {
   color: rgb(13, 19, 33);
   opacity: 0.7;
-}
-
-.reasons .reason-cards .card [src="assets/group-1.svg"] {
-  height: 200px;
 }

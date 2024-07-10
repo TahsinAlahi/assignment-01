@@ -42,8 +42,7 @@ section.hero {
 }
 
 section img {
-  height: 240px;
-  /* margin: 0px 0 15px; */
+  height: 40%;
   background-color: transparent;
 }
 

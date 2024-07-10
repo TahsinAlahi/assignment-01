@@ -11,10 +11,14 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-:root {
+html {
+  scroll-behavior: smooth;
+}
+
+/* :root {
   --btn-font-size: 1.25rem;
   --btn-font-weight: 600;
-}
+} */
 
 button {
   font-size: 1.25rem;
